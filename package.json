@@ -4,5 +4,14 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.openinc.de"
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc --outFile dist/index.js src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.2"
   }
 }
